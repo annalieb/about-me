@@ -1,0 +1,265 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Rubik&family=Staatliches&display=swap');
+/*
+List of imported fonts:
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Rubik', sans-serif;
+font-family: 'Staatliches', cursive;
+
+Color theme:
+Dark blue = #504bde
+Light blue = #aba8ff
+Pink = #f0adff
+ */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-image: url("assets/background.png");
+  background-repeat: repeat;
+  background-size: 700px;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+h1 {
+  color: #504bde;
+  font-family: 'Anonymous Pro', monospace;
+  text-align: center;
+  font-size: 70px;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+span {
+  background-color: #f0adff;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: bold;
+  font-size: 30px;
+  color: #504bde;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f0adff;
+}
+
+.text {
+  background-color: #ead6ff;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+#about {
+  padding-top: 50px;
+}
+
+#contact {
+  text-align: center;
+  font-size: 16px;
+}
+
+#profile {
+  margin: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  border: 8px solid #aba8ff;
+}
+
+#skills-edu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#skills-edu div {
+  flex-basis: 100%;
+}
+
+hr {
+  height: 2px;
+  width: 70%;
+  border-width:0;
+  color: #aba8ff;
+  background-color: #aba8ff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #504bde;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Anonymous Pro', monospace;
+  z-index: 2;
+}
+
+nav a {
+  margin: 16px;
+  color: white;
+}
+
+#activities {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 200px;
+}
+
+h4{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+#experience img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 100%;
+  border: 8px solid #aba8ff;
+}
+
+#experience img:hover {
+  border: 8px solid #f0adff;
+}
+
+#experience ul {
+  display: inline-block;
+  width: 80%;
+}
+
+#experience div {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+#project-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+#project-images a {
+  color: black;
+}
+
+#project-images div {
+  text-align: center;
+  width: 300px;
+  height: 250px;
+}
+
+#project-images div .proj-overlay {
+  position: absolute;
+  width: 250px;
+  height: 170px;
+}
+
+#project-images div .proj-overlay img {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 5%;
+  opacity: 1;
+}
+
+#project-images div .proj-overlay:hover {
+  transition: .5s ease;
+  opacity: 0;
+}
+
+#project-images div p {
+  margin: 0px;
+}
+
+#project-images div .image {
+  width: 250px;
+  height: 170px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #aba8ff;
+  border: 2px solid #504bde;
+  border-radius: 5%;
+}
+
+#project-images div .image p {
+  position: absolute;
+  width: 250px;
+  margin-top: 8px;
+}
+
+strong {
+  font-size: 20px;
+}
+
+/* rules for mortar page */
+.mortar-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mortar-div img {
+  border-radius: 5%;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 8px;
+}
+
+.mortar-div img:hover {
+  border: 8px solid #aba8ff;
+  margin: 0px;
+}
+
+.half {
+  width: 45%;
+}
+
+/* for small screens */
+@media only screen and (max-width: 700px) {
+  #experience img {
+    display: none;
+  }
+
+  #experience ul {
+    width: 100%;
+  }
+
+  ul h4{
+    margin-left: -28px;
+  }
+
+  #skills-edu {
+    display: inline;
+    width: 100%;
+  }
+}
