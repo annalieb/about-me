@@ -1,4 +1,4 @@
-# personal-site
+## My personal website
 
 I'm Anna, a student at Wellesley College studying computer science and political science.
 
