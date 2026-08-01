@@ -84,16 +84,6 @@ a:hover {
   border: 8px solid #aba8ff;
 }
 
-#skills-edu {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-#skills-edu div {
-  flex-basis: 100%;
-}
-
 hr {
   height: 2px;
   width: 70%;
@@ -135,33 +125,9 @@ h4{
   margin-bottom: 8px;
 }
 
-#experience img {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  object-fit: contain;
-  background-color: white;
-  border-radius: 100%;
-  border: 8px solid #aba8ff;
-}
-
-#experience img:hover {
-  border: 8px solid #f0adff;
-}
-
-#experience ul {
-  display: inline-block;
-  width: 80%;
-}
-
-#experience div {
-  margin-top: 16px;
-  display: flex;
-  align-items: center;
-}
-
-strong {
-  font-size: 20px;
+#about-body {
+  text-align: center;
+  font-size: 16px;
 }
 
 /* rules for mortar page */
@@ -189,21 +155,3 @@ strong {
 }
 
 /* for small screens */
-@media only screen and (max-width: 700px) {
-  #experience img {
-    display: none;
-  }
-
-  #experience ul {
-    width: 100%;
-  }
-
-  ul h4{
-    margin-left: -28px;
-  }
-
-  #skills-edu {
-    display: inline;
-    width: 100%;
-  }
-}
