@@ -177,4 +177,8 @@ h4{
   #about-text h2 {
     text-align: center;
   }
+
+  h2 {
+    font-size: 20px;
+  }
 }
