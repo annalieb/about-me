@@ -160,62 +160,6 @@ h4{
   align-items: center;
 }
 
-#project-images {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 16px;
-}
-
-#project-images a {
-  color: black;
-}
-
-#project-images div {
-  text-align: center;
-  width: 300px;
-  height: 250px;
-}
-
-#project-images div .proj-overlay {
-  position: absolute;
-  width: 250px;
-  height: 170px;
-}
-
-#project-images div .proj-overlay img {
-  width: 250px;
-  height: 170px;
-  object-fit: cover;
-  border-radius: 5%;
-  opacity: 1;
-}
-
-#project-images div .proj-overlay:hover {
-  transition: .5s ease;
-  opacity: 0;
-}
-
-#project-images div p {
-  margin: 0px;
-}
-
-#project-images div .image {
-  width: 250px;
-  height: 170px;
-  margin: auto;
-  margin-bottom: 10px;
-  background-color: #aba8ff;
-  border: 2px solid #504bde;
-  border-radius: 5%;
-}
-
-#project-images div .image p {
-  position: absolute;
-  width: 250px;
-  margin-top: 8px;
-}
-
 strong {
   font-size: 20px;
 }
