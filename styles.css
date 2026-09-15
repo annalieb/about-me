@@ -40,6 +40,14 @@ span {
   font-weight: bold;
 }
 
+span a {
+  color: black;
+}
+
+span a:hover {
+  color: #504bde;
+}
+
 h3 {
   font-family: 'Anonymous Pro', monospace;
   font-weight: bold;
@@ -67,6 +75,13 @@ a:hover {
 
 #about {
   padding-top: 50px;
+}
+
+#pronouns {
+  text-align: center;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 #contact {
