@@ -1,5 +1,5 @@
 /* import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Rubik&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Rubik:wght@300;400;500;600&family=Staatliches&display=swap');
 /*
 List of imported fonts:
 font-family: 'Anonymous Pro', monospace;
@@ -13,8 +13,7 @@ Pink = #f0adff
  */
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", arial, sans-serif;
   background-image: url("assets/background.png");
   background-repeat: repeat;
   background-size: 700px;
@@ -37,7 +36,7 @@ h2 {
 
 span {
   background-color: #f0adff;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 span a {
@@ -111,6 +110,7 @@ a:hover {
 
 #about-text h2 {
   text-align: left;
+  font-weight: 400;
 }
 
 hr {
